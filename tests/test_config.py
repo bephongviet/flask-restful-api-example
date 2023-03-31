@@ -1,0 +1,12 @@
+MYSQL_DB_HOST='127.0.0.1'
+MYSQL_DB_PORT=8889
+MYSQL_DB_USER='root'
+MYSQL_DB_PASS='root'
+MYSQL_DB_NAME='kernel_db_test'
+TESTING=True
+DEBUG=True
+FLASK_ENV = 'testing'
+SECRET_KEY = 'testing_secret_key3fer'
+SQLALCHEMY_DATABASE_URI = 'sqlite:///:memory:'
+SQLALCHEMY_ECHO = False
+UPLOAD_FOLDER = 'kernelapp/uploads/'
